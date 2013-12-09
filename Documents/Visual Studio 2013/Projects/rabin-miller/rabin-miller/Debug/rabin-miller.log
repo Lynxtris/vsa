@@ -1,0 +1,17 @@
+﻿Build started 4.12.2013 15:03:54.
+     1>Project "C:\Users\Pítr\Documents\Visual Studio 2013\Projects\rabin-miller\rabin-miller\rabin-miller.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\WinNTL-6_0_0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "rabin-miller.cpp"
+         rabin-miller.cpp
+     1>c:\users\pítr\documents\visual studio 2013\projects\rabin-miller\rabin-miller\rabin-miller.cpp(42): warning C4101: 'p' : unreferenced local variable
+     1>c:\users\pítr\documents\visual studio 2013\projects\rabin-miller\rabin-miller\rabin-miller.cpp(129): warning C4800: 'long' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\pítr\documents\visual studio 2013\projects\rabin-miller\rabin-miller\rabin-miller.cpp(97): warning C4101: 't' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Pítr\Documents\Visual Studio 2013\Projects\rabin-miller\Debug\rabin-miller.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Pítr\Documents\Visual Studio 2013\Projects\rabin-miller\Debug\rabin-miller.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Pítr\Documents\Visual Studio 2013\Projects\rabin-miller\Debug\rabin-miller.lib" /MACHINE:X86 "Debug\rabin-miller.obj"
+         ..\ntl.lib
+         rabin-miller.vcxproj -> C:\Users\Pítr\Documents\Visual Studio 2013\Projects\rabin-miller\Debug\rabin-miller.exe
+     1>Done Building Project "C:\Users\Pítr\Documents\Visual Studio 2013\Projects\rabin-miller\rabin-miller\rabin-miller.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.24
